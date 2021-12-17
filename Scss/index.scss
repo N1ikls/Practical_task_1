@@ -59,6 +59,7 @@
 }
 .type__column {
   min-height: 70%;
+  max-width: 80%;
 }
 .border {
   border-bottom: 1px solid #dddddd;
@@ -96,7 +97,7 @@
 .type__items:not(:last-child)::after {
   content: "";
   display: block;
-  max-width: 215px;
+  max-width: 200px;
   margin-top: 15px;
   height: 1px;
   background-color: #dddddd;
